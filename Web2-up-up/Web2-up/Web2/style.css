@@ -10,7 +10,7 @@ body {
   background-color: #3b6ea5;
   color: white;
   padding: 15px;
-  overflow: auto; /* чтобы float не ломал */
+  overflow: auto; 
 }
 
 .logo {
@@ -61,18 +61,18 @@ body {
   padding: 15px;
   margin-bottom: 20px;
 }
-/* Стили для ссылок внутри блока "Список гиперссылок" */
+
 .block#links ul li a {
-  display: inline-block;       /* чтобы можно было задать padding и фон */
-  color: black;                /* белый текст */
-  text-decoration: none;       /* убираем подчёркивание */
-  padding: 6px 12px;           /* внутренние отступы */
-  border-radius: 5px;          /* скруглённые углы */
-  margin: 4px 2px;             /* расстояние между ссылками */
+  display: inline-block;       
+  color: black;                
+  text-decoration: none;      
+  padding: 6px 12px;           
+  border-radius: 5px;          
+  margin: 4px 2px;            
 }
 
 .block#links ul li a:hover {
-  background-color: #104e8b;   /* темно-синий при наведении */
+  background-color: #104e8b;   
 }
 /* Таблица */
 table {
@@ -115,7 +115,7 @@ form legend{
 form .radio-group {
     display: flex;
     align-items: center;
-    gap: 20px; /* расстояние между Мужской и Женский */
+    gap: 20px; 
 }
 
 form .radio {
@@ -125,7 +125,7 @@ form .radio {
 form .radio input[type="radio"] {
         margin-right: 5px;
 }
-/ /* Не трогаем глобальные label, для чекбокса используем свой класс */
+
 .checkbox {
     display: flex;
     align-items: center;
@@ -133,16 +133,16 @@ form .radio input[type="radio"] {
 }
 
 .checkbox-label {
-    display: inline-flex; /* текст и input в одну линию */
+    display: inline-flex; 
     align-items: center;
-    gap: 10px; /* отступ между чекбоксом и текстом */
+    gap: 10px; 
     white-space:nowrap
    
 }
 
 form button[type="submit"] {
-    display: block; /* превращаем в блочный элемент */
-    margin: 15px auto 0; /* сверху 15px, по горизонтали авто (центр), снизу 0 */
+    display: block; 
+    margin: 15px auto 0; 
 }
 
 button {
@@ -168,3 +168,4 @@ button:hover {
   text-align: center;
   padding: 10px 0;
 }
+
