@@ -133,6 +133,7 @@ form .radio input[type="radio"] {
 }
 
 .checkbox-label {
+    width auto !important;
     display: inline-flex; 
     align-items: center;
     gap: 10px; 
@@ -168,4 +169,5 @@ button:hover {
   text-align: center;
   padding: 10px 0;
 }
+
 
